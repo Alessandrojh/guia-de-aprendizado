@@ -2,12 +2,36 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>treinamento</title>
+        <title>registrando conhecimento</title>
         <body>
-            <h1>Registrando conhecimento</h1>
-            <h2>Estrutura basica de html</h2>
-            <h3>Titulos</h3>
-            <p>Os titulos de uma pagina podem variar entre h1 ate h6,<br>
+            <h1>html</h1>
+             <h2>Índice</h2>
+                <ul>
+                    <li>
+                        <a href="#paragrafo-1">Titulos</a>                           
+                        </li>
+                    <li>
+                        <a href="#paragrafo-2">Tags</a>
+                    </li>
+                    <li>
+                        <a href="#paragrafo-3">Listas</a>
+                    </li>
+                    <li>
+                        <a href="#paragrafo-4">Links</a>
+                    </li>
+                    <li>
+                        <a href="#paragrafo-5">Ancora</a>
+                    </li>
+                    <li>
+                        <a href="#paragrafo-6">Imagens</a>
+                    </li>
+                    <li>
+                        <a href="#paragrafo-7">Audio</a>
+                    </li>
+                </ul>
+              <h3 id="paragrafo-1">Titulos</h3>
+                <p>
+                    Os titulos de uma pagina podem variar entre h1 ate h6,<br>
                 a sequencia desses titulos deve ser respeitada Pois <br>
                 representa a importancia da informação dentro dos  <br>
                 motores de busca do navegador. Para entender melhor <br>
@@ -18,45 +42,99 @@
                 se no código da pagina a informção mais importante não  <br>
                 estiver escrita no h1 o motor de busca do navegador  <br>
                 não vai encontrar a resposta para a pesquisa dentro da  <br>
-                pagina.</p>
-            <h3>Tags</h3>
-                <p>As tags são a base código em si, elas determinam a  <br>
-                    função de cada coisa como a tag "h1" dis para o  <br>
-                    navegador que o que estiver ali no meio é um titulo, <br>
-                    a tag "p" dis que aquilo é um paragrafo e assim por  <br>
-                    diante cada tag determina uma função para o que você  <br>
-                    digitou entre ela. 
-                    As tags tem um formato padrão que seria, < tag >  <br>
-                    para abertura e < / tag > para fechamento, ainda sim tem  <br>
-                    algumas tags que não necessitam de fechamento como a tag  <br>
-                    "imagens" ou a tag "br" que é para quebra de linha.<br>
-                    As tags podem ser colocadas uma dentro da outra para <br>
-                    aplicar formatações combinadas, como a tag "strong" que <br>
-                    pode ser usada dentro da tag "p" para deixar uma palvra <br>
-                    em <strong>negrito</strong> dentro de um paragrafo,<br>
-                     que tambem pode ser usada a tag "b" que faz a mesma função<br>
-                    de deixar a palavra em <b>negrito</b>, temos a tag "i" para <i>italico</i>  </p>
-            <h3>Listas</h3>
-            <p>existem 2 tipos de listas no html, as listas ordenadas que  <br>
+                pagina.
+                </p>
+              <h3 id="paragrafo-2">Tags</h3>
+                <p>
+                    As tags são a base código em si, elas determinam a  <br>
+                função de cada coisa como a tag "h1" dis para o  <br>
+                navegador que o que estiver ali no meio é um titulo, <br>
+                a tag "p" dis que aquilo é um paragrafo e assim por  <br>
+                diante cada tag determina uma função para o que você  <br>
+                digitou entre ela. 
+                As tags tem um formato padrão que seria, <code>&lt;tag&gt;</code>  <br>
+                para abertura e <code>&lt;/tag&gt;</code> para fechamento, ainda sim tem  <br>
+                algumas tags que não necessitam de fechamento como a tag  <br>
+                "imagens" ou a tag "br" que é para quebra de linha.<br>
+                As tags podem ser colocadas uma dentro da outra para <br>
+                aplicar formatações combinadas, como a tag "strong" que <br>
+                pode ser usada dentro da tag "p" para deixar uma palvra <br>
+                em <strong>negrito</strong> dentro de um paragrafo,<br>
+                 que tambem pode ser usada a tag "b" que faz a mesma função<br>
+                de deixar a palavra em <b>negrito</b>, temos a tag "i" para <i>italico</i>  
+                </p>
+              <h3 id="paragrafo-3">Listas</h3>
+                <p>
+                    existem 2 tipos de listas no html, as listas ordenadas que  <br>
                 são aquelas onde a ordem dos itens importa, e as não ordenadas <br>
                 que é quando a ordem dos itens não é importante. pras ordenadas <br>
                 usamos a tag 'ol' e pras não ordenadas usamos a tag 'ul' ambas <br>
-                seguidas da tag 'li' usada para determinar os intens da lista. </p>
-                <h4>Lista ordenada</h4>
-                <ol>
+                seguidas da tag 'li' usada para determinar os intens da lista. 
+                </p>
+               <h4>Lista ordenada</h4>
+                 <ol>
                     <li>Item 1</li>
                     <li>Item 2</li>
                     <li>Item 3</li>
                     <li>Item 4</li>
-                </ol>
-                <h4>não ordenada</h4>
-                <ul>
+                 </ol>
+               <h4>Não ordenada</h4>
+                 <ul>
                     <li>Item 1</li>
                     <li>Item 2</li>
                     <li>Item 3</li>
                     <li>Item 4</li>
-                </ul>
-                <a www.youtube.com></a> 
-        </body>
+                 </ul>
+              <h3 id="paragrafo-4">Links</h3>
+                <p>
+                    os links são criados com a tag 'a' seguida do atributo 'href' onde  <br>
+                colocamos o endereço do site para onde queremos ser redirecionados, <br>
+                o texto que fica entre a abertura e o fechamento da tag 'a' é o texto  <br>
+                que vai aparecer para o usuário clicar, o atributo 'title' é usado para  <br>
+                colocar um texto de descrição para o link, e o atributo 'target' é usado <br>
+                para abrir o link em uma nova aba, usamos o valor '_blank' no atributo 'target',<br>
+                para abrir no mesmo site podemos simplesmente não usar o atributo 'target'. <br>
+                </p>
+                <a href="teste.html" title="página de teste">ir para próxima página</a> 
+              <h4 id="paragrafo-5">Ancora</h4>
+                <p>
+                    as ancora são usadas para criar um link dentro da mesma pagina, <br>
+                como uma forma de atalho para algum lugar da propria pagina, para isso <br>
+                usamos a tag 'a' seguida do atributo 'href' com o simbolo '#' e o id da ancora. <br>
+                o id da ancora é criado usando o atributo 'id' em alguma tag, como por  <br>
+                exemplo: <code> &lt;h2 id="ancora1"&gt;Ancora 1&lt;/h2&gt; </code> ,criado esse id <br>
+                você pode criar o link da ancora que ficará assim: <code> &lt;a href="#ancora1"&gt;ancora 1&lt;/a&gt; </code> <br>
+                essa ancora vai levar o usuário para o local da pagina onde a tag com o id <br>
+                 "ancora1" estiver localizada.
+                </p>
+              <h3 id="paragrafo-6">Imagens</h3>
+                <p>
+                    as imagens são inseridas usando a tag 'img' seguida do atributo 'src' onde  <br>
+                 colocamos o endereço da imagem, usamos width e height para definir o tamanho da imagem,<br>
+                 o atributo 'alt' é usado para colocar um texto alternativo para a imagem, caso ela <br>
+                 não seja carregada ou para leitores de tela, o atributo 'title' é usado para colocar, <br>
+                 um texto de descrição para a imagem. tambem é possível usar a tag 'a' para transformar<br>
+                  a imagem em um link, para isso basta colocar a tag 'img' dentro da tag 'a' e colocar o<br>
+                   endereço do link no atributo 'href' da tag 'a'.,<br>
+                   exemplo: <code>&lt;a href="https://google.com" title="Google" target="blank"&gt; <br>
+                    &lt;img src="imagens/images.jfif" width="250" height="100" alt="imagem programador"&gt;
+                </p>
+                 <img src="imagens/images.jfif" width="250" height="100" alt="imagem programador">
+                 <a href="https://google.com" title="Google" target="blank">
+                    <img src="imagens/images.jfif" width="250" height="100" alt="imagem programador">
+                 </a>
+              <h3 id="paragrafo-7">Audio</h3>
+                <p>
+                    o audio é inserido usando a tag 'audio' seguida do atributo 'src' onde  <br>
+                 colocamos o endereço do arquivo de audio, o atributo 'controls' é usado para  <br>
+                 mostrar os controles de play, pause e volume para o usuário, o atributo 'autoplay' <br>
+                  é usado para fazer o audio tocar automaticamente quando a pagina for carregada, <br>
+                   e o atributo 'loop' é usado para fazer o audio tocar em loop, ou seja, repetir <br>
+                    automaticamente quando chegar no final.
+                </p>
+                 <audio controls>
+                    <source src="audio/oh-my-god-meme.mp3" type="audio/mpeg">
+                 </audio>
+            </body>
     </head>
 </html>
