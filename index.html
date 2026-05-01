@@ -28,6 +28,18 @@
                     <li>
                         <a href="#paragrafo-7">Audio</a>
                     </li>
+                    <li>
+                        <a href="#paragrafo-8">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#paragrafo-9">SVG</a>
+                    </li>
+                    <li>
+                        <a href="#paragrafo-10">Embed</a>  
+                    </li>
+                    <li>
+                        <a href="#paragrafo-11">Iframe</a>
+                    </li>
                 </ul>
               <h3 id="paragrafo-1">Titulos</h3>
                 <p>
@@ -117,7 +129,7 @@
                   a imagem em um link, para isso basta colocar a tag 'img' dentro da tag 'a' e colocar o<br>
                    endereço do link no atributo 'href' da tag 'a'.,<br>
                    exemplo: <code>&lt;a href="https://google.com" title="Google" target="blank"&gt; <br>
-                    &lt;img src="imagens/images.jfif" width="250" height="100" alt="imagem programador"&gt;
+                    &lt;img src="imagens/images.jfif" width="250" height="100" alt="imagem programador"&gt;</code>
                 </p>
                  <img src="imagens/images.jfif" width="250" height="100" alt="imagem programador">
                  <a href="https://google.com" title="Google" target="blank">
@@ -132,9 +144,56 @@
                    e o atributo 'loop' é usado para fazer o audio tocar em loop, ou seja, repetir <br>
                     automaticamente quando chegar no final.
                 </p>
-                 <audio controls>
+                 <audio controls >
                     <source src="audio/oh-my-god-meme.mp3" type="audio/mpeg">
                  </audio>
-            </body>
+              <h3 id="paragrafo-8">Videos</h3>
+                <p>
+                    os videos são inseridos usando a tag 'video' seguida do atributo 'src' onde  <br>
+                 colocamos o endereço do arquivo de video, o atributo 'controls' é usado para  <br>
+                 mostrar os controles de play, pause e volume para o usuário, o atributo 'autoplay' <br>
+                  é usado para fazer o video tocar automaticamente quando a pagina for carregada, <br>
+                   e o atributo 'loop' é usado para fazer o video tocar em loop, ou seja, repetir <br>
+                    automaticamente quando chegar no final.
+                </p>
+                 <video controls autoplay loop width="300" height="200">
+                    <source src="video/13382284_1920_1080_30fps.mp4" type="video/mp4">
+                 </video>
+              <h3 id="paragrafo-9">SVG</h3>
+                <p>
+                        o SVG é uma linguagem de marcação para criar gráficos vetoriais, ele é<br>
+                    inserido usando a tag 'svg' seguida dos atributos 'width' e 'height' <br>
+                    para definir o tamanho do gráfico, dentro da tag 'svg' podemos usar <br>
+                    outras tags para criar formas como 'rect' para retângulos, 'circle' <br>
+                     para círculos, 'line' para linhas, entre outras, o atributo 'fill' <br>
+                    é usado para definir a cor de preenchimento da forma, o atributo <br>
+                    'stroke' é usado para definir a cor da borda da forma, e o atributo <br>
+                    'stroke-width' é usado para definir a largura da borda da forma.
+                </p>
+                 <svg width="100" height="100">
+                    <rect x="10" y="10" width="80" height="80" fill="blue"/>
+                 </svg>
+                 <img src="imagens/icone.svg">
+              <h3 id="paragrafo-10">Embed</h3>
+                <p>
+                    a tag 'embed' é usada para incorporar conteúdo de terceiros, como <br>
+                    arquivos PDF, arquivos de audio e video, entre outros, ela é seguida <br>
+                    do atributo 'src' onde colocamos o endereço do arquivo que queremos <br>
+                    incorporar, o atributo 'type' é usado para definir o tipo do arquivo <br>
+                     que estamos incorporando.
+                </p>
+                 <embed src="video/13382284_1920_1080_30fps.mp4" type="video/mp4" width="300" height="200">
+              <h3 id="paragrafo-11">Iframe</h3>
+                <p>
+                    a tag 'iframe' é usada para incorporar conteúdo de outras páginas web,<br>
+                    ela é seguida do atributo 'src' onde colocamos o endereço da página <br>
+                    que queremos incorporar, o atributo 'width' e 'height' são usados <br>
+                    para definir o tamanho do iframe.
+                </p>
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/wKIGM2cOriI?si=44DLZbKAoLTFgTpB"
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                   encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                   allowfullscreen></iframe>
+        </body>
     </head>
 </html>
