@@ -194,6 +194,67 @@
                   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
                    allowfullscreen></iframe>
+              <h3 id="paragrafo-12">Tabela</h3>
+                <p>
+                    as tabelas são criadas usando a tag 'table' seguida das tags 'tr' <br>
+                    para criar as linhas da tabela, 'th' para criar as células de <br>
+                    cabeçalho da tabela, e 'td' para criar as células de dados da tabela.<br>
+                    O atributo 'border' é usado para definir a borda da tabela, o atributo<br>
+                    'cellpadding' é usado para definir o espaçamento interno das células<br>
+                    da tabela, e o atributo 'cellspacing' é usado para definir o espaçamento <br>
+                    entre as células da tabela. a tag 'caption' é usada para criar um título<br>
+                    para a tabela, as tags 'thead', 'tbody' e 'tfoot' são usadas para <br>
+                    organizar a tabela em cabeçalho, corpo e rodapé respectivamente.
+                </p>
+                    <table border="1" cellpadding="5" cellspacing="0" width="300">
+                        <caption><b>veículos</b></caption>
+                        <thead>
+                            <tr>
+                                <th>marca</th>
+                                <th>modelo</th>
+                                <th>ano</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ford</td>
+                                <td>mustang</td>
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <td>fiat</td>
+                                <td>uno</td>
+                                <td>1997</td>
+                            </tr>
+                            <tr>
+                                <td>chevrolet</td>
+                                <td>prisma</td>
+                                <td>2021</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2"><b>total</b></td>
+                                <td><b>3</b></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+              <h3 id="paragrafo-13">Formulário</h3>
+                <p>
+                    os formulários são criados usando a tag 'form' seguida do atributo 'action' onde  <br>
+                    colocamos o endereço para onde os dados do formulário serão enviados, o atributo<br>
+                    'method' é usado para definir o método de envio dos dados, que pode ser 'get' ou 'post',<br>
+                    dentro da tag 'form' podemos usar outras tags para criar os campos do formulário,<br>
+                    como a tag 'input' para criar campos de texto, senha, email, entre outros, para<br>
+                    criar campos de seleção, e a tag 'button' para criar botões de envio ou reset do formulário.
+                </p>
+                    <form action="formulario.html" method="post">
+                        <p>
+                        <label>Rua</label>
+                        <input type="text" name="rua">
+                        </p>
+                        <button type="submit">Enviar</button>
+                    </form>
         </body>
     </head>
 </html>
